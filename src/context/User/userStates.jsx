@@ -6,8 +6,8 @@ import { useNavigate } from "react-router-dom";
 function UserStates({ children }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
-  // const url = "https://unsplashbackend.onrender.com/auth/";
-  const url = "http://localhost:3000/auth/";
+  const url = "https://unsplashbackend-vnam.onrender.com";
+  // const url = "http://localhost:3000/auth/";
 
   const navigate = useNavigate();
   // Function to fetch images from the API
